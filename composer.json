@@ -1,0 +1,31 @@
+{
+  "name": "softbuild/hitpay",
+  "description": "Integration with payment gateway of hitpay",
+  "require": {
+    "php": ">=7.0",
+    "softbuild/hitpay-sdk": "2.1.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/hit-pay/magento2-extension.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/hit-pay/php-sdk.git"
+		}
+	]
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SoftBuild\\HitPay\\": ""
+    }
+  }
+}

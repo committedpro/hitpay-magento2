@@ -1,0 +1,16 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+$status_content = $block->getStatusContent();
+if ($status_content) {
+    ?>
+<div class="payment-panel">
+    <div style="width: 100%;  margin-bottom: 1rem; background: #00ccb8; padding: 20px; color: #fff; font-size: 20px; line-height: 30px;">
+    <?php echo $status_content?>
+    </div>
+</div>
+    <?php
+}
+?>
