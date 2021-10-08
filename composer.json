@@ -13,13 +13,13 @@
   "repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/hit-pay/magento2-extension.git"
+			"url": "https://github.com/committedpro/hitpay-magento2.git"
 		},
 		{
 			"type": "vcs",
 			"url": "https://github.com/hit-pay/php-sdk.git"
 		}
-	]
+	],
   "autoload": {
     "files": [
       "registration.php"
